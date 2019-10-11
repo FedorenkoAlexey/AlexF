@@ -1,0 +1,96 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px; 
+    border: 2px solid deepskyblue;
+}
+
+.header {
+    padding:0 50px 0 150px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100pv;
+    min-width: 600px;
+/*    border: 2px solid;*/
+   
+}
+
+.header a:hover {
+    font-size: 22px; color: #000; font-weight: bold; 
+}
+
+.menu {
+    margin: 10px;
+    width: 50%;
+/*    border: 1px solid red;*/
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.contact {
+    margin: 10px;
+    width: 40%;
+/*    border: 1px solid green;*/
+}
+
+/* Вставляем иконку перед списком*/
+.contact ul::before { 
+  content: url(img/Phone.jpg);
+ 
+}
+
+
+.contact ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.slider {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(img/slider_backgr.jpg) no-repeat center;
+    height: 720px;
+    color: #fff;
+    text-decoration: none;
+}
+.slider a:hover {
+    color: #000; background: white; 
+}
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    
+}
+.slider span {
+    font-size: 26px;
+    margin-top: -25px;
+
+}
+
+
+.h4_btn {
+    text-decoration: none;
+    color: #fff;
+    width: 120px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+   
+}
