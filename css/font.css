@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Raleway";
+    src:url("../fonts/Raleway/ralewaymedium.eot");
+    src:url("../fonts/Raleway/ralewaymedium.eot?#iefix") format("embedded-onetype"), 
+        url("../fonts/Raleway/ralewaymedium.wott") format("wott"),
+        url(../fonts/Raleway/ralewaymedium.ttf);
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: "RalewayLight";
+    src:url("../fonts/Raleway/ralewaylight.eot");
+    src:url("../fonts/Raleway/ralewaylight.eot?#iefix") format("embedded-onetype"), 
+        url("../fonts/Raleway/ralewaylight.wott") format("wott"),
+        url(../fonts/Raleway/ralewaylight.ttf);
+    font-weight: normal;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: "RalewayBold";
+    src:url("../fonts/Raleway/ralewaybold.eot");
+    src:url("../fonts/Raleway/ralewaybold.eot?#iefix") format("embedded-onetype"), 
+        url("../fonts/Raleway/ralewaybold.wott") format("wott"),
+        url(../fonts/Raleway/ralewaybold.ttf);
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: "DroidItalic";
+    src:url("../fonts/Droid/droidserifitalic.eot");
+    src:url("../fonts/Droid/droidserifitalic.eot?#iefix") format("embedded-onetype"), 
+        url("../fonts/Droid/droidserifitalic.wott") format("wott"),
+        url(../fonts/Droid/droidserifitalic.ttf);
+    font-weight: normal;
+    font-style: italic;
+} 

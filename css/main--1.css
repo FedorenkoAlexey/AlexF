@@ -1,3 +1,4 @@
+/*
 .main {
     display: flex;
     flex-direction: column;
@@ -13,19 +14,22 @@
     height: 100px;
     width: 100pv;
     min-width: 600px;
-/*    border: 2px solid;*/
+    border: 2px solid;
    
 }
+*/
 
 .header a:hover {
     font-size: 22px; color: #000; font-weight: bold; 
 }
 
+/*
 .menu {
     margin: 10px;
     width: 50%;
-/*    border: 1px solid red;*/
+    border: 1px solid red;
 }
+*/
 
 .menu ul {
     display: flex;
