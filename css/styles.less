@@ -1,4 +1,6 @@
-
+body {
+	margin: 0px;
+}
 
 .main {
     display: flex;
@@ -10,7 +12,7 @@
         display: flex;
         justify-content: space-between;
         flex-flow: row wrap;
-
+		min-width: 100%;
           .menu {            
               margin: 10px;
               width: auto;
@@ -90,12 +92,13 @@
                   color: #000; background: white; 
                 }
             }
-        
- }
-    .feautures {
+	}
+     .feautures {
     display: flex;
     flex-direction: column;    
     justify-content:space-around;
+	min-width: 100%;
+	height: auto;
     height: auto;
         .feaut-head {
             display: block;
@@ -176,9 +179,11 @@
      .product {
          display: flex;
          flex-flow: row wrap;
+		 min-width: 100%;
+		 height: auto;
          background-color: #f2f9fe;
          font-family: Raleway;
-         color: #5d6461;
+         color: #3c3d42;
          .text {
              display: flex;
              flex-direction: column;
@@ -207,7 +212,7 @@
              }
              p {
                  opacity: .8;
-                 font-size: 16px;
+                 font-size: 14px;
                  padding-bottom: 30px;
              }
              .btn {
@@ -237,6 +242,8 @@
          flex-direction: column;
          justify-content: center;
          flex-wrap: wrap;
+		 min-width: 100%;
+		 height: auto;
          font-family: Raleway;
          color: #5d6461;
          .head {
@@ -261,10 +268,10 @@
      }
      #product-geature {
          display: flex;
-         min-width: 100vh;
+         min-width: 100%;
          height: auto;
          font-family: Raleway;
-         color: #5d6461;
+         color: #3c3d42;
          flex-flow: row wrap;
          background-color: #f2f9fe;
          .img {
@@ -274,9 +281,8 @@
          .text {
              display: flex;
              flex-direction: column;
-             justify-content: space-around;
+             justify-content: space-between;
              min-width: 400px;
-             padding-bottom: 50px;
              padding: 0 0 50px 50px;
              h2 {
                  color: limegreen;
@@ -292,11 +298,12 @@
             }
              span {
                  font-size: 36px;
+				 font-family: RalewayLight;
                  opacity: .6;
              }
              p {
                  opacity: .6;
-                 font-size: 20px;
+                 font-size: 14px;
                  padding-bottom: 30px;
              }
              .btn {
@@ -321,12 +328,14 @@
          flex-direction: column;
          justify-content: space-around;
          align-items: center;
+		 min-width: 100%;
          height: 560px;
          padding: 50px 0 50px 0;
          font-family: Raleway;
          h3 {
              font-size: 36px;
              color: #5d6461;
+			
          }
          p {
              font-family: DroidItalic;
@@ -347,12 +356,13 @@
          flex-direction: column;
          justify-content: center;
          height: 360px;
+		 min-width: 100%;
          align-items: center;
          background-color: #f3f5f5;
          font-family: Raleway;
          h3 {
               font-size: 36px;
-              justify-content: center;
+              
               color: #5d6461;
               vertical-align: middle;
          }
@@ -364,27 +374,33 @@
          #email_text {
              height: 36px;
              border: 1px solid #cccccc;
-             border-radius: 25px;
+             border-radius: 70px;
              padding-left: 10px;
-             padding-right: 300px;
+             padding-right: 520px;
+			 height: 60px;
+			 outline: none;
          }
          #email_submit {
-             width: 150px;
+             width: 170px;
              border: none;
              text-transform: uppercase;
              font-style: Raleway;
              background: #00B400;
              text-align: center;
-             height: 40px;
+             height: 64px;
              color: #fff;
              margin-left: -100px;
-             border-radius: 25px;
+             border-radius: 30px;
              font-size: 18px;
+             &:hover {
+                     color: white; background: #333;
+                 }
          }
       }
      #footer {
          font-family: Raleway;
          display: flex;
+		 min-width: 100%;
          flex-direction: column;
          background-color: #2d312f;
          align-items: center;
